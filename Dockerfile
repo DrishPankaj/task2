@@ -1,5 +1,6 @@
 FROM python:3
-WORKDIR /usr/src/app
+ADD . /var
+WORKDIR /var
 COPY . .
 CMD ["python3 write.py"]
 ENTRYPOINT ["python3"]
