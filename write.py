@@ -9,7 +9,7 @@ def write():
     # \n is placed to indicate EOL (End of Line)
     file1.write("Started at "+now.strftime("%m/%d/%Y %H:%M %p")+"\n")
     file1.close()
-    echo "Started at "+now.strftime("%m/%d/%Y %H:%M %p")+"\n"
+    print("Started at "+now.strftime("%m/%d/%Y %H:%M %p")+"\n")
 
 
 #Task scheduling
